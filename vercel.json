@@ -1,1 +1,1 @@
-{"version": 2, "routes": [{"handle": "filesystem"}, {"src": "/(.*)", "dest": "/$1/index.html"}]}
+{"version":2,"routes":[{"handle":"filesystem"},{"src":"^/$","dest":"/index/index.html"},{"src":"/(.+)","dest":"/$1/index.html"}]}
